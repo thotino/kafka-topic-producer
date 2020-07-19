@@ -2,8 +2,8 @@
 const kafkaProd = require("../index");
 
 const data = {
-    test: "test",
-    foo: "bar",
+  test: "test",
+  foo: "bar",
 };
 
-kafkaProd.makeProducer.sendSingleRequest("testTopic", data).then((data) => {console.log(data);});
+kafkaProd.makeProducer.sendSingleRequest("testTopic", data).then((data) => { console.log(data); });

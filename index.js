@@ -27,6 +27,4 @@ const makeProducer = require("./lib/makeProducer");
 //================================================================================
 // module
 //================================================================================
-module.exports = {
-    makeProducer,
-};
+module.exports = {makeProducer};
